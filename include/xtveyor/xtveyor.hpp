@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include "xtensor/xtensor.hpp"
+#include <iostream>
+#include "xtensor/xarray.hpp"
 
 namespace xtveyor {
 
