@@ -29,7 +29,7 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update conda
   # - conda info -a
-  - conda install -c conda-forge xtensor-python boost bzip2 c-blosc
+  - conda install -c conda-forge xtensor-python # boost bzip2 c-blosc
   # vs2015_runtime=15.5 vc=14.1
   - set CONDA_ACTIVE_ENV=%MINICONDA%
   # - set BOOST_INCLUDE=%CONDA_ACTIVE_ENV%\\Library\\include
